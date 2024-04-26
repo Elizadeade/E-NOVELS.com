@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E NOVELS</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+           * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+     }
+
+    header {
+        background-color: #333;
+        padding: 10px 70px;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+      }
+  
+      .logo {
+        font-size: 32px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      .logo a{
+         text-decoration: none;
+        color: #fff;
+      }
+
+      nav {
+        align-items: center;
+        display: flex;
+      }
+
+      nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin-left: 25px;
+      }
+
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 19px;
+        font-weight: bold;
+        transition: 0.4s ease;
+      }
+
+      nav ul li a:hover {
+        color: #666;
+      }
+
+      .search {
+        position: relative;
+      }
+
+      .search input {
+        padding: 10px;
+        border: none;
+        border-radius: 20px;
+        background-color: #444;
+        color: #fff;
+      }
+
+      .search button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 10px;
+        border: none;
+        border-radius: 20px;
+        background-color: #fff;
+        color: #444;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      .hero {
+        background-color: #ffb6c1;
+        padding: 70px 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .hero h1 {
+        font-size: 48px;
+        color: #fff;
+      }
+
+      .hero p {
+        font-size: 24px;
+        color: #fff;
+        margin-bottom: 30px;
+      }
+
+      .main-content {
+        background-color: #f9f9f9;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .books {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 40px;
+        margin-top: 40px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      .book{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .book img {
+        max-width: 100%;
+        margin-bottom: 10px;
+      }
+
+      .book h3 {
+         font-size: 20px;
+         margin-top: 0px;
+      }
+
+      .book p {
+         color: #666;
+         margin-top: 5px;
+         font-size: 15px;
+      }
+
+      .btn {
+        display: inline-block;
+        text-decoration: none;
+        padding: 12px 30px;
+        border-radius: 5px;
+        background-color: #333;
+        color: #fff;
+        transition: 0.4s ease;
+      }
+
+      .btn:hover {
+        background-color: #555;
+      }
+
+      footer {
+        background-color: #262626;
+        padding: 20px;
+        color: #fff;
+        align-items: center;
+      }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <a href="">E NOVELS</a>
+        </div>
+
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Books</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Contact us</a></li>
+        </ul>
+    </nav>
+
+    <div class="search">
+        <input type="text" placeholder="search...">
+        <button type="submit">Go</button>
+    </div>
+    </header>
+
+        <div class="hero">
+            <div class="hero-content">
+            <h1>WELCOME TO E NOVELS</h1>
+            <P> WHERE YOU CAN FIND YOUR NEXT FAVORITE NOVELS TO READ TODAY </P>
+            </div>
+            <div class="main-content">
+               <h2>FEATURED BOOKS</h2>
+               <div class="books">
+                <div class="book">
+                    <img src="NOVEL 6.jpg">
+                    <h3>UNEXPECTED LOVE (MISTAKE MARRIAGE)</h3>
+                    <p>By WALY ANTOS</p>
+                    <p>THIS IS ALL ABOUT LOVE</p>
+                    <a href="">Read more</a>
+                    <a href="">Add to cart</a>
+                </div>
+
+                <div class="book">
+                    <img src="NOVEL 8.jpg">
+                    <h3>THE TENTH GIRL</h3>
+                    <p>By SARA FARING</p>
+                    <p>HORROR LOVERS</p>
+                    <a href="">Read more</a>
+                    <a href="">Add to cart</a>
+                </div>
+
+                <div class="book">
+                    <img src="NOVEL 7.jpg">
+                    <h3>THE SILENCE OF GHOSTS</h3>
+                    <p>By JONATHAN AYCLIFFE</p>
+                    <p>THOSE WHO LIVE IN SILENCE HEAR THEM BEST...</p>
+                    <a href="">Read more</a>
+                    <a href="">Add to cart</a>
+                </div>
+
+                <div class="book">
+                    <img src="NOVEL 3.jpg">
+                    <h3>ALL THE LIGHT WE CANNOT SEE</h3>
+                    <p>By ANTHONY DOERR</p>
+                    <p>BEST SELLING NOVEL</p>
+                    <a href="">Read more</a>
+                    <a href="">Add to cart</a>
+                </div>
+
+                <div class="book">
+                    <img src="NOVEL 10.jpg">
+                    <h3>HIS REVENGE</h3>
+                    <p>By ROSEMARY ANI</p>
+                    <p>REVENGE IS A RISKY GAME</p>
+                    <a href="">Read more</a>
+                    <a href="">Add to cart</a>
+                </div>
+
+                <div class="book">
+                    <img src="NOVEL 9.jpg">
+                    <h3>SOME GIRLS DO</h3>
+                    <p>By JENNIFER DUGAN</p>
+                    <p>BEST SELLING NOVEL</p>
+                    <a href="">Read more</a>
+                    <a href="">Add to cart</a>
+                </div>
+               </div>
+            </div>
+            <a href="" class="btn">VIEW All BOOKS</a>
+        </div>
+        <footer>copyright; 2023 E NOVELS. ALL RIGHT RESERVED.</footer>
+</body>
+</html>
